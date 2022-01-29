@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+/* 导航 */
+.header {
+	width: 100%;
+	padding: 20px 0;
+	background-color: #282828;
+	color: #FFFFFF;
+}
+
+.header-f {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo h3 {
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-weight: 400;
+}
+
+.nav ul {
+	display: flex;
+}
+
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	display: inline-block;
+	margin: 0 40px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav ul li a:hover {
+	color: red;
+}
+
+.banner {
+	width: 1200px;
+	height: 400px;
+	margin: 20px auto;
+}
+
+.banner img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.title-one {
+	width: 1200px;
+	text-align: center;
+	margin: 50px auto 30px auto;
+}
+
+.title-one h3 {
+	font-size: 26px;
+	letter-spacing: 4px;
+	margin-bottom: 10px;
+}
+
+.title-one p {
+	font-size: 16px;
+	color: #777;
+}
+
+.list {
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.list ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.list ul li {
+	list-style: none;
+	width: 22%;
+	background: #FFFFFF;
+	padding: 10px;
+	margin: 10px 0;
+	box-shadow: 2px 3px 5px #ccc;
+}
+
+.list ul li a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+}
+
+.list ul li img {
+	width: 100%;
+	height: 320px;
+	object-fit: cover;
+}
+
+.list ul li p {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.list ul li b {
+	float: left;
+	color: #888;
+	font-size: 12px;
+}
+
+.list ul li span {
+	float: right;
+	color: #888;
+	font-size: 14px;
+}
+
+.footer p {
+	padding: 15px;
+	background-color: #282828;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.banner a {
+	float: left;
+	width: 25px;
+	height: 90px;
+	line-height: 90px;
+	background: #ffffff;
+	opacity: 0.7;
+	text-align: center;
+	border-radius: 4px;
+	display: none;
+	cursor: pointer;
+}
+
+div:hover a {
+	display: block;
+}
+
+.banner ul {
+	width: 110px;
+	height: 20px;
+	background: #333;
+	opacity: 0.5;
+	border-radius: 8px;
+	position: absolute;
+	right: 200px;
+	bottom: 270px;
+	text-align: center;
+}
+
+.banner ul li {
+	width: 5px;
+	height: 5px;
+	background: #ccc;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.active {
+	width: 12px;
+	background: #03BDE4;
+	border-radius: 6px;
+}
+
+.left {
+	position: absolute;
+	left: 160px;
+	top: 200px;
+}
+
+.right {
+	position: absolute;
+	right: 160px;
+	top: 200px;
+}
